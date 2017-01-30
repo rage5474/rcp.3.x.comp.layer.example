@@ -19,6 +19,7 @@
       <feature id="org.eclipse.emf.common" version="2.11.1.v20160208-0816"/>
       <feature id="org.eclipse.emf.ecore" version="2.11.2.v20160208-0816"/>
       <feature id="io.rage5474.rcp.example.ui.feature" version="1.0.0.qualifier"/>
+      <feature id="org.eclipse.e4.rcp"/>
    </features>
 
    <configurations>

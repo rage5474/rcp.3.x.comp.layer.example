@@ -4,5 +4,8 @@ Bundle-Name: UI Plugin
 Bundle-SymbolicName: io.rage5474.rcp.example.ui.plugin;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.ui
+ org.eclipse.ui,
+ de.ragedev.elasticsearch.client.p2,
+ org.eclipse.osgi,
+ io.rage5474.rcp.example.core.plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8

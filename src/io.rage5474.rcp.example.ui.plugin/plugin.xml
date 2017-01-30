@@ -47,6 +47,11 @@
          <menu
                label="File">
             <command
+                  commandId="io.rage5474.rcp.example.ui.plugin.command.importfile"
+                  label="Import File..."
+                  style="push">
+            </command>
+            <command
                   commandId="org.eclipse.ui.file.exit"
                   label="Exit">
             </command>
@@ -64,6 +69,14 @@
                value="Example RCP Application">
          </property>
       </product>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="io.rage5474.rcp.example.ui.plugin.ImportFileHandler"
+            id="io.rage5474.rcp.example.ui.plugin.command.importfile"
+            name="Import File">
+      </command>
    </extension>
 
 </plugin>

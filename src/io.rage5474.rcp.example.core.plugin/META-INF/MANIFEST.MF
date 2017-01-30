@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plugin
+Bundle-SymbolicName: io.rage5474.rcp.example.core.plugin
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: de.ragedev.elasticsearch.client.p2
+Export-Package: io.rage5474.rcp.example.core.plugin.api
