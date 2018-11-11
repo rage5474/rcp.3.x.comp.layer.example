@@ -26,6 +26,12 @@
             class="io.rage5474.rcp.example.ui.plugin.View"
             id="io.rage5474.rcp.example.ui.plugin.view">
       </view>
+      <view
+            class="io.rage5474.rcp.example.ui.plugin.MyFxView"
+            id="io.rage5474.rcp.example.ui.plugin.myfxview"
+            name="MyFxView"
+            restorable="true">
+      </view>
    </extension>
    <extension
          point="org.eclipse.ui.perspectiveExtensions">
@@ -37,6 +43,14 @@
                relative="org.eclipse.ui.editorss"
                relationship="left"
                id="io.rage5474.rcp.example.ui.plugin.view">
+         </view>
+         <view
+               id="io.rage5474.rcp.example.ui.plugin.myfxview"
+               minimized="false"
+               relationship="right"
+               relative="org.eclipse.ui.editorss"
+               standalone="true"
+               visible="true">
          </view>
       </perspectiveExtension>
    </extension>
