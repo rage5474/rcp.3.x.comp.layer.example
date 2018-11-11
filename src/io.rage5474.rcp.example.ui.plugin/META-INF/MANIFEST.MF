@@ -4,5 +4,6 @@ Bundle-Name: UI Plugin
 Bundle-SymbolicName: io.rage5474.rcp.example.ui.plugin;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.ui
+ org.eclipse.ui,
+ org.eclipse.fx.ui.workbench3;bundle-version="3.3.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
